@@ -54,7 +54,7 @@ def sortwords(strin):
     print(sorted(palabras, key=tolower))
 
 
-# Write a function  to find the indices for all items ina list that are equal to a given value.
+# Write a function  to find the indices for all items in a list that are equal to a given value.
 # It should accept two input parameters; the list to search and the value you're searching for. The output should be a list of indices, each represented by a list of numbers.
 
 # Solution 1
@@ -121,7 +121,7 @@ def load_dict(dict, path):
         return pickle.load(file)
 
 
-# Write a function to set an alarm by playing asound file and printing a message at the specified time.
+# Write a function to set an alarm by playing a sound file and printing a message at the specified time.
 
 def alarm(atime,sound,message):
     wait= atime - time.time()
@@ -158,7 +158,7 @@ def sim_dice(*dice,num_trials=1_000_000):
 
 
 # Write a function to solve sodoku puzzles.
-# It should tale a ártoaññy filled in puzzle as input, and then return a two-dimensional list representing the solution.
+# It should take a partially filled in puzzle as input, and then return a two-dimensional list representing the solution.
 
 def sodoku(puzzle):
     restart = True
@@ -210,7 +210,7 @@ def sodoku(puzzle):
 
 
 # Write a function that takes a single argument for the number of words to select and then
-# returns a string containg a sequence of randombly select words from that Diceware list separeted by spaces to generate a password.
+# returns a string containg a sequence of randomly select words from that Diceware list separeted by spaces to generate a password.
 
 def dice(rolls):
     d = {}
